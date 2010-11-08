@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               Catalyst-Model-Bitcoin
-version:            0.01
-abstract:           Perl extension for blah blah blah
+version:            0.02
+abstract:           Catalyst model class that interfaces 
 author:
     - Pavel Karoukin <pavel@yepcorp.com>
 license:            unknown
@@ -11,8 +11,9 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Catalyst:  ~
-    Moose:     Finance::Bitcoin
+    Catalyst:          5.8
+    Finance::Bitcoin:  0.001
+    Moose:             1.08
 no_index:
     directory:
         - t
